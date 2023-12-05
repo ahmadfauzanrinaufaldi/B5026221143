@@ -17,6 +17,7 @@ Route::get('/', function () {
     return view('landingpage');
 });
 
+
 Route::get('halo', function () {
 	return "Halo, Selamat datang di tutorial laravel www.malasngoding.com";
 });
@@ -33,32 +34,32 @@ Route::get('welcome', function () {
     return view('welcome');
 });
 
-Route::get('w1', function () {
-    return view('w1');
+Route::get('meet1', function () {
+    return view('meet1');
 });
 
-Route::get('w2', function () {
-    return view('w2');
+Route::get('meet2', function () {
+    return view('meet2');
 });
 
-Route::get('w3', function () {
-    return view('w3');
+Route::get('meet3', function () {
+    return view('meet3');
 });
 
-Route::get('w4', function () {
-    return view('w4');
+Route::get('meet4', function () {
+    return view('meet4');
 });
 
-Route::get('w5', function () {
-    return view('w5');
+Route::get('meet5', function () {
+    return view('meet5');
 });
 
-Route::get('w6', function () {
-    return view('w6');
+Route::get('meet6', function () {
+    return view('meet6');
 });
 
-Route::get('w7', function () {
-    return view('w7');
+Route::get('meet7', function () {
+    return view('meet7');
 });
 
 Route::get('perkalian', 'App\Http\Controllers\DosenController@index');
