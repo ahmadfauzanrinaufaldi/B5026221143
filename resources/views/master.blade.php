@@ -11,14 +11,15 @@
 </head>
 <body>
 
+
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
   <!-- Brand -->
-  <a class="navbar-brand" href="#">Logo</a>
+  <a class="navbar-brand" href="#">5026221143</a>
 
   <!-- Links -->
   <ul class="navbar-nav">
     <li class="nav-item">
-      <a class="nav-link" href="#">Link 1</a>
+      <a class="nav-link" href="#">Ahmad Fauzan Rinaufaldi</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="#">Link 2</a>
@@ -40,8 +41,10 @@
 <br>
 
 <div class="container">
-  @yield('konten')
+    @yield('konten')
 </div>
+
 @include('footer')
+
 </body>
 </html>
