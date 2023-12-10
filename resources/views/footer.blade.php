@@ -1,3 +1,3 @@
 <footer>
-    <center>Hak Cipta oleh Ahmad Fauzan Rinaufaldis</center>
+    <center>Hak Cipta oleh Ahmad Fauzan Rinaufaldi</center>
 </footer>

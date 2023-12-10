@@ -86,3 +86,12 @@ Route::get('/keranjangbelanja','App\Http\Controllers\KeranjangController@index')
 Route::get('/keranjangbelanja/beli','App\Http\Controllers\KeranjangController@beli');
 Route::post('/keranjangbelanja/store','App\Http\Controllers\KeranjangController@store');
 Route::get('/keranjangbelanja/batal/{ID}','App\Http\Controllers\KeranjangController@batal');
+
+Route::get('/bus','App\Http\Controllers\BusController@index');
+Route::get('/bus/tambah','App\Http\Controllers\BusController@tambah');
+Route::post('/bus/store','App\Http\Controllers\BusController@store');
+Route::get('/bus/edit/{kodebus}','App\Http\Controllers\BusController@edit');
+Route::post('/bus/update','App\Http\Controllers\BusController@update');
+Route::get('/bus/view/{kodebus}','App\Http\Controllers\BusController@view');
+Route::get('/bus/hapus/{kodebus}','App\Http\Controllers\BusController@hapus');
+Route::get('/bus/cari','App\Http\Controllers\BusController@cari');
