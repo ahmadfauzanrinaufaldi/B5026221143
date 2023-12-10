@@ -82,4 +82,7 @@ Route::get('/nilaikuliah','App\Http\Controllers\NilaikuliahController@indexnilai
 Route::get('/nilaikuliah/tambahnilai','App\Http\Controllers\NilaikuliahController@tambahnilai');
 Route::post('/nilaikuliah/storenilai','App\Http\Controllers\NilaikuliahController@storenilai');
 
-
+Route::get('/keranjangbelanja','App\Http\Controllers\KeranjangController@index');
+Route::get('/keranjangbelanja/beli','App\Http\Controllers\KeranjangController@beli');
+Route::post('/keranjangbelanja/store','App\Http\Controllers\KeranjangController@store');
+Route::get('/keranjangbelanja/batal/{ID}','App\Http\Controllers\KeranjangController@batal');
