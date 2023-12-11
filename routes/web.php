@@ -95,3 +95,6 @@ Route::post('/bus/update','App\Http\Controllers\BusController@update');
 Route::get('/bus/view/{kodebus}','App\Http\Controllers\BusController@view');
 Route::get('/bus/hapus/{kodebus}','App\Http\Controllers\BusController@hapus');
 Route::get('/bus/cari','App\Http\Controllers\BusController@cari');
+
+Route::get('/chat','App\Http\Controllers\EmotController@indexchat');
+
